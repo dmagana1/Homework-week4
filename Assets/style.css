@@ -1,0 +1,156 @@
+        /* Background image*/
+:root{
+    background-image: url("unnamed.jpg");
+    opacity: 1;
+    }
+    
+    li{
+        padding-bottom: 3px;
+        color: white;
+        text-shadow: 1.5px 1px 3px rgb(255, 255, 255);
+        list-style-type: none;
+    }
+    
+    p{
+        color: rgb(255, 255, 255);
+        text-shadow: .5px .5px white;
+        text-align: center;
+        font-size: xx-large;
+        font-family: 'verdana';
+    
+    }
+        /* H1 statement*/
+    h1{
+        color: white;
+        font-family: 'Verdana';
+    }
+
+        /*H2 statement*/
+    h2{
+        color: white;
+        font-family: 'verdana';
+        margin-top: -.5rem;
+        
+    }
+
+    input{
+        text-align: center;
+    }
+            /* Start page/front page*/
+    .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 80rem;
+        margin: 0 auto;
+      }
+    
+      button {
+        display: inline-block;
+        font-family: sans-serif;
+        background-color: red;
+        border-radius: 10px;
+        border: 4px double #1bdd15;
+        color: #eeeeee;
+        text-align: center;
+        font-size: 15px;
+        padding: 20px;
+        width: 200px;
+        margin-top: 3px;
+      }
+    
+      button:hover{
+          box-shadow: 5px 4px 7px rgb(214, 178, 15);
+      }
+    
+    #startpage{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        /* Quiz timer*/ 
+    #timer{
+        font-family: 'verdana';
+        background-color: red;
+        color: #ffffff;
+        font-size: 20px;
+        text-shadow: .2px .2px white;
+        text-align: center;
+    }
+    #quiz {
+        display: none;
+    }
+    
+    #result {
+        display: none;
+    }
+    
+        /*Highscore*/
+    #gameover {
+        text-align: center;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #highScore{
+        height: 1.5rem;
+        border: groove 2px;
+    }
+    
+    #high-scorePage{
+        display: none;
+        width: 50%;
+        border: solid;
+        border-color: rgb(255, 255, 255);
+        border-bottom-style: groove;
+        padding-bottom: .3rem;
+        background: rgb(139, 192, 128);
+    }
+    
+    #highscore-header{
+        display:flex;
+        justify-content: space-around;
+        border-bottom-style: outset;
+        margin-bottom: .5rem;
+        background-color: #0cd82e;
+        color: #ffffff;
+        font-family: 'verdana';
+    }
+    #highscoreContainer{
+        height: 100%;
+        width: 100%;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #initials{
+        margin: .5rem;
+        height: 1.75rem;
+    }
+    
+    #highscore-initials{
+        display: inline-block;
+        padding-left: 9.5rem;
+        font-family: 'verdana';
+    }
+    
+    #highscore-score{
+        float: right;
+        padding-right: 8.75rem;
+        font-family: 'verdana';
+    }
+    
+    #finalScore{
+        padding-bottom: 0.5rem;
+        font-size: 20px;
+        font-family: 'verdana';
+    }
+    
+    #endGameBtns{
+        display: none;
+    }
