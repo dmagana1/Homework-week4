@@ -1,5 +1,6 @@
-In this project our goal was to create a test/quiz that had a working timer and had multiple choice questions. The quiz that I created was about code, and it had various questions with A,B,C,D, button to push; once the answer was pushed a pop would come up telling you if the answer was correct. At the end it will ask for your initals, and show you your highscore. In the Picture Folders I placed screenshots of my project, because I dont know how to add them to the readme file, and I also dont know how to setup a working url, so that you are able to test it out the project. 
+In this project our goal was to create a test/quiz that had a working timer and had multiple choice questions. The quiz that I created was about code, and it had various questions with A,B,C,D, button to push; once the answer was pushed a pop would come up telling you if the answer was correct. At the end it will ask for your initals, and show you your highscore. In the Picture Folders I placed screenshots of my project, because I dont know how to add them to the readme file, and I have also added a working url, so that you can test it out. 
 
+https://dmagana1.github.io/Homework-week4/
 
 ## Criteria
 
